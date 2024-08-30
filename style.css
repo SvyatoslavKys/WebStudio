@@ -1,0 +1,242 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, ul, p{
+    margin: 0;
+}
+a, ul, li{
+    text-decoration: none;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+   
+}
+
+/* ---------------header------------------- */
+.hero-section{
+    background-image: url(./image/Bg.png);
+    height: 600px;
+}
+.header-cont>a{
+    color:#2196F3;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.15;
+    font-family: 'Raleway', sans-serif;
+    padding: 24px 0;
+    transition: 500ms ease;
+}
+.header-cont>a:hover{
+    color: black;
+}
+.header-cont>ul>li>a{
+    font-family: 'Roboto', sans-serif ;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: black;
+    padding: 32px 0;
+    transition: 500ms ease;
+}
+
+.header-cont>ul>li>a:hover{
+    color: #2196F3;
+}
+
+.header-cont{
+    display: flex;
+}
+.header-cont>ul:first-child{
+    margin-left: 97px;
+}
+.first-ul{
+    margin-left: 97px;
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+.second-ul{
+    margin-left: auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+/* ---------------hero section--------------- */
+.container>h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    color: white;
+    text-align: center;
+
+    display: inline-flex;
+    margin: 200px 0 30px 0;
+
+}
+.button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+
+    color: white;
+    padding: 10px 20px;
+    background: #2196F3;
+    border-radius: 4px;
+    border: none;
+    transition: 500ms ease-in-out;
+}
+.button:hover{
+    color: black;
+    background: white;
+
+}
+.hero-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-btn{
+    margin-bottom: 200px;
+}
+/* --------------------------section what we do --------- */
+.descript-box{
+    display: flex;
+    gap: 30px;
+    margin: 100px 0;
+}
+.descript-box>li>h2{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.13;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    color: #212121;
+    margin: 0 0 10px 0;
+}
+.descript-box>li>p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    color: #757575;
+}
+.container>h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    color: #212121;
+    margin-bottom: 50px;
+}
+.img-box{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 94px;
+}
+/* -----------------our team---------------- */
+.our-team-bg{
+    background-color: #F5F4FA;
+}
+.header-ourteam{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.13;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    margin: 94px 0 50px 0;
+}
+.our-team-box{
+    display: flex;
+    gap: 39px;
+    margin-bottom: 94px;
+}
+.team-item{
+    width: 270px;
+    height: 368px;
+    background: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.team-item>h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    
+    margin: 30px 0 10px 0;
+    color: #212121;
+}
+.team-item>p{ 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    margin-bottom: 30px;
+    color: #757575;
+
+}
+/* --------------footer----------------------- */
+.footer-bg{
+    background-color: #2F303A;
+}
+.footre-logo{
+    color:#2196F3;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.15;
+    font-family: 'Raleway', sans-serif;
+    margin: 60px 0 10px 0;
+    display: inline-block;
+    transition: 500ms ease;
+}
+.footre-logo:hover{
+    color: white;
+}
+.footer-bg>div>p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.footer-link{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF99;
+    transition: 500ms ease-in-out;
+    display: inline-block;
+}
+.footer-link:hover{
+    color: #2196F3;
+}
+
+
